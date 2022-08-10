@@ -12,7 +12,7 @@ spring:
 
   jpa:
     show-sql: true
-    databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
+   # databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 management:
   endpoints:
