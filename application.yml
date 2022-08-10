@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8090    
 spring:
   mvc:
     pathmatch:
@@ -12,6 +12,7 @@ spring:
 
   jpa:
     show-sql: true
+    databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 management:
   endpoints:
