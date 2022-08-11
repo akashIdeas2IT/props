@@ -6,8 +6,8 @@ spring:
       matching-strategy: ant_path_matcher
   datasource:
     url: jdbc:mysql://localhost:3306/org
-    username: root
-    password: sqlPass@22
+    username: ${dbusername}
+    password: ${dbpassword}
 
 
 
