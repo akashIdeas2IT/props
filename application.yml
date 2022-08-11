@@ -22,6 +22,6 @@ management:
         include: "*"
         
 
-message: The Service is up and running, dynamic!
+message: The Service is up and running, dynamic 1!
 
 
