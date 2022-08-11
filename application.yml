@@ -17,5 +17,6 @@ management:
         
 
 message: The Service is up and running, dynamic 1!
+cloudConfigMsg: I am coming from Spring Cloud Config!!
 
 
