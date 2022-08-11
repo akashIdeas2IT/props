@@ -6,14 +6,14 @@ spring:
       matching-strategy: ant_path_matcher
   datasource:
     url: jdbc:mysql://localhost:3306/org
-    username: ${dbusername}
-    password: ${dbpassword}
+    username: ${user.name}
+    password: ${user.password}
 
 
 
   jpa:
     show-sql: true
-   # databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
+ 
 
 management:
   endpoints:
